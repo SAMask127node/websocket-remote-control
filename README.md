@@ -1,4 +1,4 @@
-Ссылка на задание -
+Ссылка на задание - [Assignment: Websocket Remote Control](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/remote-control/assignment.md)
 Дата дедлайна. - 27.06.22 02.59 (ala)
 Score: 164 / 164
 
