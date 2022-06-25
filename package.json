@@ -1,0 +1,36 @@
+{
+  "name": "remote-control",
+  "version": "1.0.0",
+  "description": "Webpack remodte control project",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAMask127node/websocket-remote-control.git"
+  },
+  "keywords": [
+    "websocket",
+    "node",
+    "robotjs",
+    "jimp",
+    "streamAPI"
+  ],
+  "author": "sam127NODE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAMask127node/websocket-remote-control/issues"
+  },
+  "homepage": "https://github.com/SAMask127node/websocket-remote-control#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "robotjs": "^0.6.0",
+    "ts-node": "^10.8.1",
+    "ws": "^8.8.0"
+  }
+}
