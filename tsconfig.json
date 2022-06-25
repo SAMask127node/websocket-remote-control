@@ -10,7 +10,8 @@
     "removeComments": true,
     "strict": true,
     "noImplicitAny": true,
-    "types": ["node"]
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true
   },
   "exclude": ["node_modules", "./build"],
   "include": ["./src"],
