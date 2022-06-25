@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:dev": "nodemon ./src/index.ts",
+    "start:dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,12 +27,12 @@
   "homepage": "https://github.com/SAMask127node/websocket-remote-control#readme",
   "devDependencies": {
     "@types/ws": "^8.5.3",
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1"
   },
   "dependencies": {
     "jimp": "^0.16.1",
     "robotjs": "^0.6.0",
-    "ts-node": "^10.8.1",
     "ws": "^8.8.0"
   }
 }
