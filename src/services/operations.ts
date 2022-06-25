@@ -16,8 +16,6 @@ import { prntScrn } from "../utils/prntScrnOperations.js";
 export const getMessage = async (data: string) => {
   const commandName: string = data.split(" ")[0];
   const commandValues: string[] = data.split(" ").slice(1);
-  const commandType: string = commandName.split("_")[0];
-  const commandMethod: string = commandName.split("_")[1];
   const mouseXY = robot.getMousePos();
   const mouseX: number = mouseXY.x;
   const mouseY: number = mouseXY.y;

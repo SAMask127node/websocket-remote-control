@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as http from "http";
 
-export const httpServer = http.createServer(function (
+export const httpServer: http.Server = http.createServer(function (
   req: http.IncomingMessage,
   res: http.ServerResponse
 ) {

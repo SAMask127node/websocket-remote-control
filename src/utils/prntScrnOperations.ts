@@ -7,7 +7,7 @@ export const prntScrn = async ({ mouseX, mouseY }: TParams) => {
   const yPos = mouseY;
 
   const size = 200;
-  const rimg = robot.screen.capture(0, 0, size, size);
+  const rimg = robot.screen.capture(mouseX - 100, mouseY - 100, size, size);
   let jimg = new Jimp(size, size);
   for (var x = 0; x < size; x++) {
     for (var y = 0; y < size; y++) {
@@ -16,7 +16,7 @@ export const prntScrn = async ({ mouseX, mouseY }: TParams) => {
       jimg.setPixelColor(num, x, y);
     }
   }
-  const pngBase64 = await jimg.getBase64Async(Jimp.AUTO.toString());
+  const pngBase64 = await jimg.getBase64Async("image/png");
   const message = `prnt_scrn ${pngBase64.split(",")[1]}\0`;
   return message;
 };
