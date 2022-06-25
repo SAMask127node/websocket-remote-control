@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "./build"],
+  "include": ["./src"],
+  "ts-node": {
+    "esm": true
+  }
+}
